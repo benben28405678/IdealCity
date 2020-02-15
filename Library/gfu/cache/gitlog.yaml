@@ -13,9 +13,69 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-02-15T13:03:24.757-05:00
+  lastUpdatedAtString: 2020-02-15T13:12:29.226-05:00
   initializedAtString: 2020-02-15T12:56:40.216-05:00
   log:
+  - commitID: 08e2669ffcd88656d90dd9741670b4ee7e893b45
+    mergeA: 
+    mergeB: 
+    authorName: Ben Myers
+    authorEmail: benben28405678@gmail.com
+    commitEmail: benben28405678@gmail.com
+    commitName: Ben Myers
+    summary: Initial
+    description: 
+    timeString: 2020-02-15T13:09:41.000-05:00
+    commitTimeString: 2020-02-15T13:09:41.000-05:00
+    changes:
+    - path: Library/gfu/cache/gituser.yaml
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/gfu/cache/gituser.yaml
+      projectPath: Library/gfu/cache/gituser.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: ed8cdebc8e12aff54a335d991a5349d2e69b5069
+    mergeA: 
+    mergeB: 
+    authorName: Ben Myers
+    authorEmail: benben28405678@gmail.com
+    commitEmail: benben28405678@gmail.com
+    commitName: Ben Myers
+    summary: Initial
+    description: 
+    timeString: 2020-02-15T13:05:33.000-05:00
+    commitTimeString: 2020-02-15T13:05:33.000-05:00
+    changes:
+    - path: Library/SourceAssetDB
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/SourceAssetDB
+      projectPath: Library/SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 60dc85765d573cd125ee3d5cf8d2954a373d0380
     mergeA: 
     mergeB: 
