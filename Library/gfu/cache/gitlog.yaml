@@ -13,9 +13,320 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-02-15T13:12:29.226-05:00
+  lastUpdatedAtString: 2020-02-15T13:53:22.929-05:00
   initializedAtString: 2020-02-15T12:56:40.216-05:00
   log:
+  - commitID: af0c01505aec94464b399fbabc1471d5bd75b8f1
+    mergeA: 
+    mergeB: 
+    authorName: Ben Myers
+    authorEmail: benben28405678@gmail.com
+    commitEmail: benben28405678@gmail.com
+    commitName: Ben Myers
+    summary: Added smoke
+    description: 
+    timeString: 2020-02-15T13:42:22.000-05:00
+    commitTimeString: 2020-02-15T13:42:22.000-05:00
+    changes:
+    - path: Assets/EffectExamples.meta
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Assets/EffectExamples.meta
+      projectPath: Assets/EffectExamples.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/EffectExamples/Smoke & Steam Effects.meta
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Assets/EffectExamples/Smoke
+        & Steam Effects.meta
+      projectPath: Assets/EffectExamples/Smoke & Steam Effects.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/EffectExamples/Smoke & Steam Effects/Materials.meta
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Assets/EffectExamples/Smoke
+        & Steam Effects/Materials.meta
+      projectPath: Assets/EffectExamples/Smoke & Steam Effects/Materials.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/EffectExamples/Smoke & Steam Effects/Materials/GroundFog.mat
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Assets/EffectExamples/Smoke
+        & Steam Effects/Materials/GroundFog.mat
+      projectPath: Assets/EffectExamples/Smoke & Steam Effects/Materials/GroundFog.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/EffectExamples/Smoke & Steam Effects/Materials/GroundFog.mat.meta
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Assets/EffectExamples/Smoke
+        & Steam Effects/Materials/GroundFog.mat.meta
+      projectPath: Assets/EffectExamples/Smoke & Steam Effects/Materials/GroundFog.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/EffectExamples/Smoke & Steam Effects/Prefabs.meta
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Assets/EffectExamples/Smoke
+        & Steam Effects/Prefabs.meta
+      projectPath: Assets/EffectExamples/Smoke & Steam Effects/Prefabs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/EffectExamples/Smoke & Steam Effects/Prefabs/GroundFog.prefab
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Assets/EffectExamples/Smoke
+        & Steam Effects/Prefabs/GroundFog.prefab
+      projectPath: Assets/EffectExamples/Smoke & Steam Effects/Prefabs/GroundFog.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/EffectExamples/Smoke & Steam Effects/Prefabs/GroundFog.prefab.meta
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Assets/EffectExamples/Smoke
+        & Steam Effects/Prefabs/GroundFog.prefab.meta
+      projectPath: Assets/EffectExamples/Smoke & Steam Effects/Prefabs/GroundFog.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/EffectExamples/Smoke & Steam Effects/Textures.meta
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Assets/EffectExamples/Smoke
+        & Steam Effects/Textures.meta
+      projectPath: Assets/EffectExamples/Smoke & Steam Effects/Textures.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/EffectExamples/Smoke & Steam Effects/Textures/SmokeLoop02.tif
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Assets/EffectExamples/Smoke
+        & Steam Effects/Textures/SmokeLoop02.tif
+      projectPath: Assets/EffectExamples/Smoke & Steam Effects/Textures/SmokeLoop02.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/EffectExamples/Smoke & Steam Effects/Textures/SmokeLoop02.tif.meta
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Assets/EffectExamples/Smoke
+        & Steam Effects/Textures/SmokeLoop02.tif.meta
+      projectPath: Assets/EffectExamples/Smoke & Steam Effects/Textures/SmokeLoop02.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Materials/Under Currently Placing.mat
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Assets/Materials/Under
+        Currently Placing.mat
+      projectPath: Assets/Materials/Under Currently Placing.mat
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/ArtifactDB
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ArtifactDB
+      projectPath: Library/ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/Artifacts/30/308711c54a1971c27a7627522e0f2666
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/30/308711c54a1971c27a7627522e0f2666
+      projectPath: Library/Artifacts/30/308711c54a1971c27a7627522e0f2666
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/39/397c28939bca5437fbd38949226f7cf4
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/39/397c28939bca5437fbd38949226f7cf4
+      projectPath: Library/Artifacts/39/397c28939bca5437fbd38949226f7cf4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/3b/3b2b1c6d6e22a24164b02411fed592b2
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/3b/3b2b1c6d6e22a24164b02411fed592b2
+      projectPath: Library/Artifacts/3b/3b2b1c6d6e22a24164b02411fed592b2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/3f/3f846bb480d3cd0b19f482d304e5d600
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/3f/3f846bb480d3cd0b19f482d304e5d600
+      projectPath: Library/Artifacts/3f/3f846bb480d3cd0b19f482d304e5d600
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/6a/6a0a1f55b2e7e3b397e694859edf4e44
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/6a/6a0a1f55b2e7e3b397e694859edf4e44
+      projectPath: Library/Artifacts/6a/6a0a1f55b2e7e3b397e694859edf4e44
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/74/7419c3533b77b59926492b0e6507e95a
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/74/7419c3533b77b59926492b0e6507e95a
+      projectPath: Library/Artifacts/74/7419c3533b77b59926492b0e6507e95a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/7f/7f66eb827dd3318de49e2bf9bb2d688f
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/7f/7f66eb827dd3318de49e2bf9bb2d688f
+      projectPath: Library/Artifacts/7f/7f66eb827dd3318de49e2bf9bb2d688f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/a1/a1eac9250bfb2f1bd17031602e60e495
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/a1/a1eac9250bfb2f1bd17031602e60e495
+      projectPath: Library/Artifacts/a1/a1eac9250bfb2f1bd17031602e60e495
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/Artifacts/f2/f2268cc296c9f0e68227188c24f1afc6
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/f2/f2268cc296c9f0e68227188c24f1afc6
+      projectPath: Library/Artifacts/f2/f2268cc296c9f0e68227188c24f1afc6
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/CurrentMaximizeLayout.dwlt
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/CurrentMaximizeLayout.dwlt
+      projectPath: Library/CurrentMaximizeLayout.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/ShaderCache/0/01f5f58b91ee97055942bd68409c8f6a.bin
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/0/01f5f58b91ee97055942bd68409c8f6a.bin
+      projectPath: Library/ShaderCache/0/01f5f58b91ee97055942bd68409c8f6a.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/ShaderCache/5/5451ce11a68c2678e614aff552df7351.bin
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/5/5451ce11a68c2678e614aff552df7351.bin
+      projectPath: Library/ShaderCache/5/5451ce11a68c2678e614aff552df7351.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/ShaderCache/5/5455bd6026e2ee16b7e55e47d5761a1d.bin
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/5/5455bd6026e2ee16b7e55e47d5761a1d.bin
+      projectPath: Library/ShaderCache/5/5455bd6026e2ee16b7e55e47d5761a1d.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/ShaderCache/5/57315d69e0d73ba4695fccc50252f44b.bin
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/5/57315d69e0d73ba4695fccc50252f44b.bin
+      projectPath: Library/ShaderCache/5/57315d69e0d73ba4695fccc50252f44b.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/ShaderCache/5/5fddf891205464a2c5b46b56da9d0365.bin
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/5/5fddf891205464a2c5b46b56da9d0365.bin
+      projectPath: Library/ShaderCache/5/5fddf891205464a2c5b46b56da9d0365.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/ShaderCache/6/672ebbb41c4976528f18e6d384fd0f59.bin
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/6/672ebbb41c4976528f18e6d384fd0f59.bin
+      projectPath: Library/ShaderCache/6/672ebbb41c4976528f18e6d384fd0f59.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/ShaderCache/6/6fedc821400b9d8dd2afe10b2019a4b7.bin
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/6/6fedc821400b9d8dd2afe10b2019a4b7.bin
+      projectPath: Library/ShaderCache/6/6fedc821400b9d8dd2afe10b2019a4b7.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/ShaderCache/8/89c725d5b81af9efa5fe7b1fd7bbfc6d.bin
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/8/89c725d5b81af9efa5fe7b1fd7bbfc6d.bin
+      projectPath: Library/ShaderCache/8/89c725d5b81af9efa5fe7b1fd7bbfc6d.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/ShaderCache/8/8e611f05fa14140f513f944de61ad6e7.bin
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/8/8e611f05fa14140f513f944de61ad6e7.bin
+      projectPath: Library/ShaderCache/8/8e611f05fa14140f513f944de61ad6e7.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/ShaderCache/EditorEncounteredVariants
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/EditorEncounteredVariants
+      projectPath: Library/ShaderCache/EditorEncounteredVariants
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/ShaderCache/e/ea2222dd0e70d34acbb4676de00ec6b4.bin
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/e/ea2222dd0e70d34acbb4676de00ec6b4.bin
+      projectPath: Library/ShaderCache/e/ea2222dd0e70d34acbb4676de00ec6b4.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/SourceAssetDB
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/SourceAssetDB
+      projectPath: Library/SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/StateCache/SceneView/40f810-mainStage.json
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/StateCache/SceneView/40f810-mainStage.json
+      projectPath: Library/StateCache/SceneView/40f810-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/UIElements/EditorWindows/UnityEditor.PackageManager.UI.PackageManagerWindow.pref
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/UIElements/EditorWindows/UnityEditor.PackageManager.UI.PackageManagerWindow.pref
+      projectPath: Library/UIElements/EditorWindows/UnityEditor.PackageManager.UI.PackageManagerWindow.pref
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/shadercompiler-UnityShaderCompiler0.log
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/shadercompiler-UnityShaderCompiler0.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/shadercompiler-UnityShaderCompiler1.log
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/shadercompiler-UnityShaderCompiler1.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler1.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/shadercompiler-UnityShaderCompiler2.log
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/shadercompiler-UnityShaderCompiler2.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler2.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/shadercompiler-UnityShaderCompiler3.log
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/shadercompiler-UnityShaderCompiler3.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler3.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/__Backupscenes/0.backup
+      fullPath: /Users/benjaminmyers/The Ideal City Builder/Temp/__Backupscenes/0.backup
+      projectPath: Temp/__Backupscenes/0.backup
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
   - commitID: 08e2669ffcd88656d90dd9741670b4ee7e893b45
     mergeA: 
     mergeB: 

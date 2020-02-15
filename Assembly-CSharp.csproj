@@ -62,25 +62,123 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\City Adventure - beffio\Plugins\AnimationSystem\CarPath.cs" />
-    <Compile Include="Assets\City Adventure - beffio\Plugins\AnimationSystem\CarPathUI.cs" />
-    <Compile Include="Assets\City Adventure - beffio\Plugins\AnimationSystem\NodeListClass.cs" />
-    <Compile Include="Assets\City Adventure - beffio\Plugins\AnimationSystem\NodeScript.cs" />
-    <Compile Include="Assets\City Adventure - beffio\Plugins\AnimationSystem\NodeScriptUI.cs" />
-    <Compile Include="Assets\City Adventure - beffio\Plugins\CameraFollow.cs" />
-    <Compile Include="Assets\City Adventure - beffio\Plugins\DealyedActivation.cs" />
+    <Compile Include="Assets\Imports\City Adventure - beffio\Plugins\AnimationSystem\CarPath.cs" />
+    <Compile Include="Assets\Imports\City Adventure - beffio\Plugins\AnimationSystem\CarPathUI.cs" />
+    <Compile Include="Assets\Imports\City Adventure - beffio\Plugins\AnimationSystem\NodeListClass.cs" />
+    <Compile Include="Assets\Imports\City Adventure - beffio\Plugins\AnimationSystem\NodeScript.cs" />
+    <Compile Include="Assets\Imports\City Adventure - beffio\Plugins\AnimationSystem\NodeScriptUI.cs" />
+    <Compile Include="Assets\Imports\City Adventure - beffio\Plugins\CameraFollow.cs" />
+    <Compile Include="Assets\Imports\City Adventure - beffio\Plugins\DealyedActivation.cs" />
+    <Compile Include="Assets\Imports\Demo\Scripts\AutoRotate.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\BloomComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\DitheringComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\FogComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\GrainComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\TaaComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Components\VignetteComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\BloomModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\FogModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\GrainModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\UserLutModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Models\VignetteModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingComponent.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingContext.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingModel.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingProfile.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+    <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+    <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
     <Compile Include="Assets\Scripts\CameraControl.cs" />
     <Compile Include="Assets\Scripts\GridAnimation.cs" />
     <Compile Include="Assets\Scripts\PlaceNew.cs" />
     <Compile Include="Assets\Scripts\PlaceNewPlaneAnimation.cs" />
     <Compile Include="Assets\Scripts\StateManager.cs" />
-    <None Include="Assets\City Adventure - beffio\QuickVideoTutorial\CA_QuickTutorial.txt" />
-    <None Include="Assets\City Adventure - beffio\ProjectSettings\ProjectVersion.txt" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\GrainGen.shader" />
+    <None Include="Assets\Imports\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\FXAA3.cginc" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
+    <None Include="Assets\Imports\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+    <None Include="Assets\Imports\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\LutGen.shader" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+    <None Include="Assets\Imports\City Adventure - beffio\QuickVideoTutorial\CA_QuickTutorial.txt" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\TAA.cginc" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+    <None Include="Assets\Imports\Demo\Shaders\Floor.shader" />
+    <None Include="Assets\Imports\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+    <None Include="Assets\Imports\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\ACES.cginc" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+    <None Include="Assets\Imports\Hologram\Shader\Hologram.shader" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\FXAA.shader" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\Fog.shader" />
+    <None Include="Assets\Imports\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Imports\City Adventure - beffio\ProjectSettings\ProjectVersion.txt" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
+    <None Include="Assets\Imports\PostProcessing\Editor Resources\UI\Trackball.shader" />
+    <None Include="Assets\Imports\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\Common.cginc" />
+    <None Include="Assets\Imports\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\Bloom.shader" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\Uber.shader" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\TAA.shader" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\Blit.shader" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\Bloom.cginc" />
+    <None Include="Assets\Imports\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+    <None Include="Assets\Imports\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>/Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>/Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>/Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualEffectGraph.Runtime">
+      <HintPath>/Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -96,6 +194,18 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>/Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>/Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualEffectGraph.Editor">
+      <HintPath>/Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>/Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>/Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>/Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>

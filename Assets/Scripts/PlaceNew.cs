@@ -8,6 +8,7 @@ public class PlaceNew : MonoBehaviour
     public GameObject building;
     public GameObject mapParentNode;
     public GameObject plane;
+    public Material hologramMaterial;
     
     private Vector3 newCloneCenter = new Vector3();
     private GameObject newClone;
@@ -116,6 +117,7 @@ public class PlaceNew : MonoBehaviour
                     float y = newClone.transform.rotation.eulerAngles.y;
                     
                     newClone.transform.rotation = Quaternion.Euler(0.0f, y + 45.0f - (y + 45.0f) % 90.0f, 0.0f);
+                    newClone.GetComponent<MeshRenderer>().material = hologramMaterial;
 
                     manager.isBuilding = false;
                 }
