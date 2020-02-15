@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{212E0F10-6730-B4B9-5DEC-0C2C635D1C99}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraControl.cs">
+    <Files>
+      <File FileName="Assets/Scripts/CameraControl.cs" Line="27" Column="113" />
+      <File FileName="Assets/Scripts/StateManager.cs" Line="9" Column="39" />
+      <File FileName="Assets/Scripts/PlaceNew.cs" Line="110" Column="58" />
+      <File FileName="Assets/Scripts/PlaceNewPlaneAnimation.cs" Line="15" Column="39" />
+      <File FileName="Assets/Scripts/GridAnimation.cs" Line="6" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
