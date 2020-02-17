@@ -2,15 +2,15 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlaceNew.cs">
     <Files>
       <File FileName="Assets/Scripts/CameraControl.cs" Line="27" Column="113" />
-      <File FileName="Assets/Scripts/StateManager.cs" Line="9" Column="39" />
-      <File FileName="Assets/Scripts/PlaceNew.cs" Line="111" Column="28" />
-      <File FileName="Assets/Scripts/PlaceNewPlaneAnimation.cs" Line="15" Column="39" />
-      <File FileName="Assets/Scripts/GridAnimation.cs" Line="6" Column="2" />
+      <File FileName="Assets/Scripts/StateManager.cs" />
+      <File FileName="Assets/Scripts/PlaceNew.cs" Line="99" Column="54" />
+      <File FileName="Assets/Scripts/PlaceNewPlaneAnimation.cs" />
+      <File FileName="Assets/Scripts/GridAnimation.cs" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="db29e903-6dd7-404a-8442-88ebeed67c2b" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

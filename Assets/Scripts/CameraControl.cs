@@ -24,19 +24,19 @@ public class CameraControl : MonoBehaviour
     void Update()
     {
         if(Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W)) {
-            centerObject.transform.position += Vector3.up * panSpeed * Time.deltaTime; //transform.localPosition
+            centerObject.transform.position += centerObject.transform.forward * panSpeed * Time.deltaTime; //transform.localPosition
         }
         
         if(Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S)) {
-            centerObject.transform.position += Vector3.down * panSpeed * Time.deltaTime;
+            centerObject.transform.position += -centerObject.transform.forward * panSpeed * Time.deltaTime;
         }
         
         if(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A)) {
-            centerObject.transform.position += Vector3.left * panSpeed * Time.deltaTime;
+            centerObject.transform.position += -centerObject.transform.right * panSpeed * Time.deltaTime;
         }
         
         if(Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D)) {
-            centerObject.transform.position += Vector3.right * panSpeed * Time.deltaTime;
+            centerObject.transform.position += centerObject.transform.right * panSpeed * Time.deltaTime;
         }
         
         if(Input.GetKey(KeyCode.Q)) {
@@ -45,6 +45,18 @@ public class CameraControl : MonoBehaviour
         
         if(Input.GetKey(KeyCode.E)) {
             centerObject.transform.Rotate(0.0f, -rotateSpeed, 0.0f, Space.World);
+        }
+
+        Debug.Log(centerObject.transform.localRotation.eulerAngles.x);
+
+        if (Input.GetKey(KeyCode.R) && (centerObject.transform.localRotation.eulerAngles.x < 15.0f || centerObject.transform.localRotation.eulerAngles.x > 180.0f))
+        {
+            centerObject.transform.Rotate(0.4f * rotateSpeed, 0.0f, 0.0f, Space.Self);
+        }
+
+        if (Input.GetKey(KeyCode.F) && (centerObject.transform.localRotation.eulerAngles.x > 345.0f || centerObject.transform.localRotation.eulerAngles.x < 180.0f))
+        {
+            centerObject.transform.Rotate(-0.4f * rotateSpeed, 0.0f, 0.0f, Space.Self);
         }
 
         var camera = GetComponent<Camera>();

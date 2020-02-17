@@ -13,11 +13,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-02-15T13:53:22.893-05:00
-  initializedAtString: 2020-02-15T12:58:04.577-05:00
-  localBranches:
-  - name: master
-    tracking: origin/master
+  lastUpdatedAtString: 2020-02-15T15:00:35.885-05:00
+  initializedAtString: 2020-02-15T14:59:09.959-05:00
+  localBranches: []
   remoteBranches:
   - name: origin/master
     tracking: '[None]'
@@ -30,14 +28,8 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys:
-    - master
-    values:
-    - name: master
-      remote:
-        name: origin
-        url: https://github.com/benben28405678/IdealCity.git
-      trackingBranch: master
+    keys: []
+    values: []
   remoteConfigBranches:
     keys:
     - origin

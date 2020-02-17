@@ -2,8 +2,6 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
-    <CscToolPath>/Applications/Unity/Hub/Editor/2019.3.0f6/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-    <CscToolExe>unity_csc.sh</CscToolExe>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -54,6 +52,9 @@
     <UnityVersion>2019.3.0f6</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2019.3.0f6/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -70,51 +71,51 @@
     <Compile Include="Assets\Imports\City Adventure - beffio\Plugins\CameraFollow.cs" />
     <Compile Include="Assets\Imports\City Adventure - beffio\Plugins\DealyedActivation.cs" />
     <Compile Include="Assets\Imports\Demo\Scripts\AutoRotate.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\BloomComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\DitheringComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\FogComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\FxaaComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\GrainComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\TaaComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\UserLutComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\VignetteComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\BloomModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\FogModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\GrainModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\UserLutModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\VignetteModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingContext.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingProfile.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
-    <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Attributes\GetSetAttribute.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Attributes\MinAttribute.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Attributes\TrackballAttribute.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Attributes\TrackballGroupAttribute.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Components\AmbientOcclusionComponent.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Components\BloomComponent.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Components\BuiltinDebugViewsComponent.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Components\ChromaticAberrationComponent.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Components\ColorGradingComponent.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Components\DepthOfFieldComponent.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Components\DitheringComponent.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Components\EyeAdaptationComponent.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Components\FogComponent.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Components\FxaaComponent.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Components\GrainComponent.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Components\MotionBlurComponent.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Components\TaaComponent.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Components\UserLutComponent.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Components\VignetteComponent.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Models\AmbientOcclusionModel.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Models\AntialiasingModel.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Models\BloomModel.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Models\BuiltinDebugViewsModel.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Models\ChromaticAberrationModel.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Models\ColorGradingModel.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Models\DepthOfFieldModel.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Models\DitheringModel.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Models\EyeAdaptationModel.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Models\FogModel.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Models\GrainModel.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Models\MotionBlurModel.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Models\UserLutModel.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Models\VignetteModel.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\PostProcessingBehaviour.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\PostProcessingComponent.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\PostProcessingContext.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\PostProcessingModel.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\PostProcessingProfile.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Utils\ColorGradingCurve.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Utils\GraphicsUtils.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Utils\MaterialFactory.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Runtime\Utils\RenderTextureFactory.cs" />
+    <Compile Include="Assets\Imports\PostProcessing2\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
     <Compile Include="Assets\Scripts\CameraControl.cs" />
     <Compile Include="Assets\Scripts\GridAnimation.cs" />
     <Compile Include="Assets\Scripts\PlaceNew.cs" />
