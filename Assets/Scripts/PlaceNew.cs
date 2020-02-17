@@ -9,9 +9,12 @@ public class PlaceNew : MonoBehaviour
     public GameObject mapParentNode;
     public GameObject plane;
     public Material hologramMaterial;
+    public Material destroyMaterial;
+    public GameObject mapElements;
     
     private Vector3 newCloneCenter = new Vector3();
     private GameObject newClone;
+    private Material holdMaterial;
     
     void Update()
     {
@@ -30,6 +33,7 @@ public class PlaceNew : MonoBehaviour
             if (hit.transform.tag == "Environment")
             {
                 Vector3 destination = hit.point;
+                Vector3 planeDestination = new Vector3(0, 0, 0);
 
                 building.transform.localPosition = new Vector3(0.0f, 1.1f + 0.5f * Mathf.Sin(Time.fixedTime * 3.0f), 0.0f);
 
@@ -43,11 +47,28 @@ public class PlaceNew : MonoBehaviour
 
                 destination.y = 0.0f;
 
+                for (int i = 0; i < mapElements.transform.childCount; i++)
+                {
+                    Transform child = mapElements.transform.GetChild(i);
+
+                    if (Mathf.Abs(child.position.x - transform.position.x) < 5.0f && Mathf.Abs(child.position.z - transform.position.z) < 5.0f)
+                    {
+                        mapElements.transform.GetChild(i).GetComponent<MeshRenderer>().material.color = Color.red;
+
+                        destination.y = 10.0f;
+                        planeDestination = new Vector3(0, -9.0f, 0);
+                    } else
+                    {
+                        mapElements.transform.GetChild(i).GetComponent<MeshRenderer>().material.color = new Color(0.71f, 0.71f, 0.71f);
+                    }
+                }
+
                 transform.position += (destination - transform.position) / 4.0f;
+                plane.transform.localPosition += (planeDestination - plane.transform.localPosition) / 4.0f;
 
                 building.transform.localRotation = new Quaternion(0.02f * (transform.position.z - destination.z) + 0.02f * Mathf.Sin(Time.fixedTime), 0.0f, 0.02f * (transform.position.x - destination.x) + 0.02f * Mathf.Cos(Time.fixedTime), 1.0f);
                 
-                if(Input.GetMouseButtonDown(0))
+                if (Input.GetMouseButtonDown(0))
                 {
                     newClone = Instantiate(building);
                     newClone.transform.position = new Vector3(destination.x, 0.0f, destination.z);

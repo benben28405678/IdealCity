@@ -1,16 +1,16 @@
 ﻿<Properties StartupConfiguration="{212E0F10-6730-B4B9-5DEC-0C2C635D1C99}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlaceNew.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraControl.cs">
     <Files>
-      <File FileName="Assets/Scripts/CameraControl.cs" Line="27" Column="113" />
+      <File FileName="Assets/Scripts/CameraControl.cs" Line="49" Column="1" />
       <File FileName="Assets/Scripts/StateManager.cs" />
-      <File FileName="Assets/Scripts/PlaceNew.cs" Line="99" Column="54" />
+      <File FileName="Assets/Scripts/PlaceNew.cs" />
       <File FileName="Assets/Scripts/PlaceNewPlaneAnimation.cs" />
       <File FileName="Assets/Scripts/GridAnimation.cs" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="db29e903-6dd7-404a-8442-88ebeed67c2b" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c5d90426-6ee1-46de-b513-bff54e17f4ea" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

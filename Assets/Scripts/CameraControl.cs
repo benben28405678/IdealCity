@@ -47,8 +47,6 @@ public class CameraControl : MonoBehaviour
             centerObject.transform.Rotate(0.0f, -rotateSpeed, 0.0f, Space.World);
         }
 
-        Debug.Log(centerObject.transform.localRotation.eulerAngles.x);
-
         if (Input.GetKey(KeyCode.R) && (centerObject.transform.localRotation.eulerAngles.x < 15.0f || centerObject.transform.localRotation.eulerAngles.x > 180.0f))
         {
             centerObject.transform.Rotate(0.4f * rotateSpeed, 0.0f, 0.0f, Space.Self);
@@ -61,14 +59,15 @@ public class CameraControl : MonoBehaviour
 
         var camera = GetComponent<Camera>();
 
-        camera.orthographicSize += Input.mouseScrollDelta.y * zoomSpeed / -10.0f;
+        //camera.orthographicSize += Input.mouseScrollDelta.y * zoomSpeed / -10.0f;
+        camera.fieldOfView += Input.mouseScrollDelta.y * zoomSpeed / -100.0f;
         
-        if(camera.orthographicSize < 10.0f)
+        if(camera.fieldOfView < 1.0f)
         {
-            camera.orthographicSize = 10.0f;
-        } else if(camera.orthographicSize > 85.0f)
+            camera.fieldOfView = 1.0f;
+        } else if(camera.fieldOfView > 7.0f)
         {
-            camera.orthographicSize = 85.0f;
+            camera.fieldOfView = 7.0f;
         }
 
         deltaMouse = Input.mousePosition - lastMousePosition;

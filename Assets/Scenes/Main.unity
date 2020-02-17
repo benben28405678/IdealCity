@@ -446,6 +446,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2388872, guid: 13ee382f4ed3fb547a36ed6c87df8d63, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e47bb1835b21443db8e477f776b0ad6e, type: 2}
     - target: {fileID: 6463134, guid: 13ee382f4ed3fb547a36ed6c87df8d63, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -1003,6 +1007,8 @@ MonoBehaviour:
   mapParentNode: {fileID: 495434630}
   plane: {fileID: 279640970}
   hologramMaterial: {fileID: 2100000, guid: d0af7ad49d9e0d54cb487c1c81501239, type: 2}
+  destroyMaterial: {fileID: 2100000, guid: e47bb1835b21443db8e477f776b0ad6e, type: 2}
+  mapElements: {fileID: 495434630}
 --- !u!4 &1291013631
 Transform:
   m_ObjectHideFlags: 0
@@ -1172,8 +1178,8 @@ Camera:
     height: 1
   near clip plane: 5
   far clip plane: 4000
-  field of view: 5
-  orthographic: 1
+  field of view: 7
+  orthographic: 0
   orthographic size: 20
   m_Depth: -1
   m_CullingMask:
