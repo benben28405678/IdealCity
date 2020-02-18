@@ -22,8 +22,11 @@ public class PlaceNew : MonoBehaviour
         
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
-        
-        if(!manager.isBuilding)
+
+        building.GetComponent<MeshRenderer>().enabled = manager.isBuilding;
+        plane.GetComponent<MeshRenderer>().enabled = manager.isBuilding;
+
+        if (!manager.isBuilding)
         {
             return;
         }
@@ -51,7 +54,7 @@ public class PlaceNew : MonoBehaviour
                 {
                     Transform child = mapElements.transform.GetChild(i);
 
-                    if (Mathf.Abs(child.position.x - transform.position.x) < 5.0f && Mathf.Abs(child.position.z - transform.position.z) < 5.0f)
+                    if (Mathf.Abs(child.position.x - transform.position.x) < 5.0f && Mathf.Abs(child.position.z - transform.position.z) < 5.0f && !Input.GetMouseButton(0))
                     {
                         mapElements.transform.GetChild(i).GetComponent<MeshRenderer>().material.color = Color.red;
 
@@ -83,54 +86,44 @@ public class PlaceNew : MonoBehaviour
                     building.GetComponent<MeshRenderer>().enabled = false;
                     plane.GetComponent<MeshRenderer>().enabled = false;
 
-                    //float theta = Mathf.Atan((newCloneCenter.x - hit.point.x)/(newCloneCenter.z - hit.point.z));
-
-                    float theta = Vector3.Angle(new Vector3(newCloneCenter.x - hit.point.x, 0.0f, newCloneCenter.z - hit.point.z), Vector3.left);
-                    
-                    if(newCloneCenter.z - hit.point.z < 0.0f)
+                    if ((hit.point - newCloneCenter).magnitude > 5.0f)
                     {
-                        theta *= -1;
-                    }
+                        float theta = Vector3.Angle(new Vector3(newCloneCenter.x - hit.point.x, 0.0f, newCloneCenter.z - hit.point.z), Vector3.left);
 
-                    //float snapTheta = theta - theta % 90.0f;
+                        if (newCloneCenter.z - hit.point.z < 0.0f)
+                        {
+                            theta *= -1;
+                        }
 
-                    //snapTheta = theta - (theta % (Mathf.PI / 2.0f));
+                        float snapTheta = 180.0f;
 
-                    //newClone.transform.localRotation = Quaternion.LookRotation(new Vector3(hit.point.x - newCloneCenter.x, hit.point.z - newCloneCenter.z));
+                        if (Mathf.Abs(90.0f - theta) < 45.0f)
+                        {
+                            snapTheta = 270.0f;
+                        }
 
-                    float snapTheta = 180.0f;
-                    
-                    if(Mathf.Abs(90.0f - theta) < 45.0f)
-                    {
-                        snapTheta = 270.0f;
-                    }
-                    
-                    if(Mathf.Abs(-90.0f - theta) < 45.0f)
-                    {
-                        snapTheta = 90.0f;
-                    }
-                    
-                    if(Mathf.Abs(180.0f - theta) < 45.0f || Mathf.Abs(-180.0f - theta) < 45.0f)
-                    {
-                        snapTheta = 0.0f;
-                    }
-                    
-                    if ((snapTheta - newClone.transform.rotation.eulerAngles.y) > -180.0f)
-                    {
-                        newClone.transform.rotation = Quaternion.Euler(0.0f, newClone.transform.rotation.eulerAngles.y + (snapTheta - newClone.transform.rotation.eulerAngles.y) / 4.0f, 0.0f);
-                    }
-                    else
-                    {
-                        newClone.transform.localRotation = Quaternion.Euler(0.0f, newClone.transform.localRotation.eulerAngles.y - (snapTheta - newClone.transform.rotation.eulerAngles.y) / 4.0f, 0.0f);
-                    }
+                        if (Mathf.Abs(-90.0f - theta) < 45.0f)
+                        {
+                            snapTheta = 90.0f;
+                        }
 
-                    Debug.DrawLine(newCloneCenter, hit.point, Color.red);
-                    Debug.DrawLine(newCloneCenter, newCloneCenter + 100.0f * Vector3.left, Color.green);
-                }
-                else if(!manager.isBuilding)
-                {
-                    building.GetComponent<MeshRenderer>().enabled = true;
-                    plane.GetComponent<MeshRenderer>().enabled = true;
+                        if (Mathf.Abs(180.0f - theta) < 45.0f || Mathf.Abs(-180.0f - theta) < 45.0f)
+                        {
+                            snapTheta = 0.0f;
+                        }
+
+                        if ((snapTheta - newClone.transform.rotation.eulerAngles.y) > -180.0f)
+                        {
+                            newClone.transform.rotation = Quaternion.Euler(0.0f, newClone.transform.rotation.eulerAngles.y + (snapTheta - newClone.transform.rotation.eulerAngles.y) / 4.0f, 0.0f);
+                        }
+                        else
+                        {
+                            newClone.transform.localRotation = Quaternion.Euler(0.0f, newClone.transform.localRotation.eulerAngles.y - (snapTheta - newClone.transform.rotation.eulerAngles.y) / 4.0f, 0.0f);
+                        }
+
+                        Debug.DrawLine(newCloneCenter, hit.point, Color.red);
+                        Debug.DrawLine(newCloneCenter, newCloneCenter + 100.0f * Vector3.left, Color.green);
+                    }
                 }
                 
                 if(Input.GetMouseButtonUp(0))
@@ -141,6 +134,8 @@ public class PlaceNew : MonoBehaviour
                     newClone.GetComponent<MeshRenderer>().material = hologramMaterial;
 
                     manager.isBuilding = false;
+                    building.GetComponent<MeshRenderer>().enabled = false;
+                    plane.GetComponent<MeshRenderer>().enabled = false;
                 }
             }
         }

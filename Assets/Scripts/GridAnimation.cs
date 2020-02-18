@@ -5,6 +5,9 @@ using UnityEngine;
 public class GridAnimation : MonoBehaviour
 {
     public Material material;
+    public StateManager manager;
+
+    private float animationTime = 0.0f;
     
     // Start is called before the first frame update
     void Start()
@@ -15,8 +18,24 @@ public class GridAnimation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //material.color = new Color(0.0f, 1.0f, 1.0f, 0.5f + 0.5f * Mathf.Sin(Time.fixedTime));
-        
-        //this.GetComponent<MeshRenderer>().material.color = new Color(1.0f, 1.0f, 1.0f, 0.5f);
+        transform.position = new Vector3(5.0f, 2.0f * Mathf.Sin(animationTime), 5.0f);
+
+        //enabled = transform.position.y > 0.0f;
+    }
+
+    private void LateUpdate()
+    {
+
+        if(!manager.isBuilding && animationTime < 3*Mathf.PI/2.0f)
+        {
+            animationTime += Time.deltaTime * 12.0f;
+        }
+
+        if (manager.isBuilding && animationTime > 0.1f)
+        {
+            animationTime -= Time.deltaTime * 12.0f;
+        }
+
+        if (animationTime < 0.1f) animationTime = 0.1f;
     }
 }

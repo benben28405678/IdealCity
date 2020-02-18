@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlaceNewPlaneAnimation : MonoBehaviour
 {
     public Material thisMaterial;
+    public StateManager stateManager;
     
     // Start is called before the first frame update
     void Start()
@@ -16,11 +17,16 @@ public class PlaceNewPlaneAnimation : MonoBehaviour
     void LateUpdate()
     {
         
+        if(!stateManager.isBuilding)
+        {
+            return;
+        }
+
         float s = 0.95f + 0.05f * Mathf.Abs(Mathf.Sin(3.0f * Time.fixedTime));
 
         thisMaterial.color = new Color(0.0f, 1.0f, 0.5f + 0.5f * Mathf.Cos(Time.fixedTime));
 
-        if (transform.localPosition.y < -2.0f)
+        if (transform.localPosition.y < -4.0f)
         {
             thisMaterial.color = new Color(1.0f, 0.5f + 0.5f * Mathf.Cos(Time.fixedTime), 0.0f);
         }
