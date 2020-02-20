@@ -9,17 +9,22 @@ public class PlaceNew : MonoBehaviour
     public GameObject mapParentNode;
     public GameObject plane;
     public Material hologramMaterial;
-    public Material destroyMaterial;
-    public GameObject mapElements;
-    
+    public ParticleSystem particles;
+    public ParticleSystem destroyParticles;
+
     private Vector3 newCloneCenter = new Vector3();
     private GameObject newClone;
     private Material holdMaterial;
-    
+
+    private void Start()
+    {
+        particles.gameObject.SetActive(false);
+    }
+
     void Update()
     {
         //gameObject.SetActive(manager.isBuilding);
-        
+
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
@@ -43,26 +48,27 @@ public class PlaceNew : MonoBehaviour
                 destination.x /= 10.0f;
                 destination.x = Mathf.Round(destination.x);
                 destination.x *= 10.0f;
-                
+
                 destination.z /= 10.0f;
                 destination.z = Mathf.Round(destination.z);
                 destination.z *= 10.0f;
 
                 destination.y = 0.0f;
 
-                for (int i = 0; i < mapElements.transform.childCount; i++)
+                for (int i = 0; i < mapParentNode.transform.childCount; i++)
                 {
-                    Transform child = mapElements.transform.GetChild(i);
+                    Transform child = mapParentNode.transform.GetChild(i);
 
                     if (Mathf.Abs(child.position.x - transform.position.x) < 5.0f && Mathf.Abs(child.position.z - transform.position.z) < 5.0f && !Input.GetMouseButton(0))
                     {
-                        mapElements.transform.GetChild(i).GetComponent<MeshRenderer>().material.color = Color.red;
+                        mapParentNode.transform.GetChild(i).GetComponent<MeshRenderer>().material.color = Color.red;
 
                         destination.y = 10.0f;
                         planeDestination = new Vector3(0, -9.0f, 0);
-                    } else
+                    }
+                    else
                     {
-                        mapElements.transform.GetChild(i).GetComponent<MeshRenderer>().material.color = new Color(0.71f, 0.71f, 0.71f);
+                        mapParentNode.transform.GetChild(i).GetComponent<MeshRenderer>().material.color = new Color(0.71f, 0.71f, 0.71f);
                     }
                 }
 
@@ -70,7 +76,7 @@ public class PlaceNew : MonoBehaviour
                 plane.transform.localPosition += (planeDestination - plane.transform.localPosition) / 4.0f;
 
                 building.transform.localRotation = new Quaternion(0.02f * (transform.position.z - destination.z) + 0.02f * Mathf.Sin(Time.fixedTime), 0.0f, 0.02f * (transform.position.x - destination.x) + 0.02f * Mathf.Cos(Time.fixedTime), 1.0f);
-                
+
                 if (Input.GetMouseButtonDown(0))
                 {
                     newClone = Instantiate(building);
@@ -79,8 +85,28 @@ public class PlaceNew : MonoBehaviour
                     newClone.transform.SetParent(mapParentNode.transform);
 
                     newCloneCenter = newClone.transform.localPosition;
+
+                    for (int i = 0; i < mapParentNode.transform.childCount; i++)
+                    {
+                        Transform child = mapParentNode.transform.GetChild(i);
+
+                        if (Mathf.Abs(child.position.x - transform.position.x) < 5.0f && Mathf.Abs(child.position.z - transform.position.z) < 5.0f && !Input.GetMouseButton(0))
+                        {
+                            destroyParticles.gameObject.SetActive(true);
+                            destroyParticles.transform.position = child.position;
+                            destroyParticles.transform.position += new Vector3(0, 3.0f, 0);
+                            destroyParticles.time = 0.0f;
+                            destroyParticles.Play();
+
+                            Debug.Log("Destroy");
+
+                            Destroy(child.gameObject);
+                        }
+
+                    }
+
                 }
-                
+
                 if (Input.GetMouseButton(0))
                 {
                     building.GetComponent<MeshRenderer>().enabled = false;
@@ -125,17 +151,23 @@ public class PlaceNew : MonoBehaviour
                         Debug.DrawLine(newCloneCenter, newCloneCenter + 100.0f * Vector3.left, Color.green);
                     }
                 }
-                
-                if(Input.GetMouseButtonUp(0))
+
+                if (Input.GetMouseButtonUp(0))
                 {
                     float y = newClone.transform.rotation.eulerAngles.y;
-                    
+
                     newClone.transform.rotation = Quaternion.Euler(0.0f, y + 45.0f - (y + 45.0f) % 90.0f, 0.0f);
                     newClone.GetComponent<MeshRenderer>().material = hologramMaterial;
 
                     manager.isBuilding = false;
                     building.GetComponent<MeshRenderer>().enabled = false;
                     plane.GetComponent<MeshRenderer>().enabled = false;
+
+                    particles.gameObject.SetActive(true);
+                    particles.transform.position = newClone.transform.position;
+                    particles.transform.position += new Vector3(0, 3.0f, 0);
+                    particles.time = 0.0f;
+                    particles.Play();
                 }
             }
         }

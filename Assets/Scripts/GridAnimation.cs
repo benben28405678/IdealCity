@@ -5,6 +5,7 @@ using UnityEngine;
 public class GridAnimation : MonoBehaviour
 {
     public Material material;
+    public Material lowDefMaterial;
     public StateManager manager;
 
     private float animationTime = 0.0f;
@@ -21,6 +22,8 @@ public class GridAnimation : MonoBehaviour
         transform.position = new Vector3(5.0f, 2.0f * Mathf.Sin(animationTime), 5.0f);
 
         //enabled = transform.position.y > 0.0f;
+
+
     }
 
     private void LateUpdate()

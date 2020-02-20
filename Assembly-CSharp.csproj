@@ -120,6 +120,7 @@
     <Compile Include="Assets\Scripts\GridAnimation.cs" />
     <Compile Include="Assets\Scripts\PlaceNew.cs" />
     <Compile Include="Assets\Scripts\PlaceNewPlaneAnimation.cs" />
+    <Compile Include="Assets\Scripts\SettingManager.cs" />
     <Compile Include="Assets\Scripts\StateManager.cs" />
     <None Include="Assets\Imports\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
     <None Include="Assets\Imports\PostProcessing\Resources\Shaders\GrainGen.shader" />
