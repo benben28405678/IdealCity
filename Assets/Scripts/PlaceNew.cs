@@ -19,6 +19,7 @@ public class PlaceNew : MonoBehaviour
     private void Start()
     {
         particles.gameObject.SetActive(false);
+        destroyParticles.gameObject.SetActive(false);
     }
 
     void Update()
@@ -86,11 +87,13 @@ public class PlaceNew : MonoBehaviour
 
                     newCloneCenter = newClone.transform.localPosition;
 
-                    for (int i = 0; i < mapParentNode.transform.childCount; i++)
+                    for (int i = 0; i < mapParentNode.transform.childCount - 1; i++)
                     {
                         Transform child = mapParentNode.transform.GetChild(i);
 
-                        if (Mathf.Abs(child.position.x - transform.position.x) < 5.0f && Mathf.Abs(child.position.z - transform.position.z) < 5.0f && !Input.GetMouseButton(0))
+                        Debug.Log("Compare " + child.position + " / " + newClone.transform.position);
+
+                        if (Mathf.Abs(child.position.x - newClone.transform.position.x) < 5.0f && Mathf.Abs(child.position.z - newClone.transform.position.z) < 5.0f)
                         {
                             destroyParticles.gameObject.SetActive(true);
                             destroyParticles.transform.position = child.position;

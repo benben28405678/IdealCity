@@ -13,57 +13,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-02-19T23:16:57.455-05:00
+  lastUpdatedAtString: 2020-02-19T23:34:40.033-05:00
   initializedAtString: 2020-02-19T23:12:47.849-05:00
   entries:
-  - path: .vs/The Ideal City Builder/xs/project-cache/Assembly-CSharp-Debug.json
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/.vs/The Ideal City Builder/xs/project-cache/Assembly-CSharp-Debug.json
-    projectPath: .vs/The Ideal City Builder/xs/project-cache/Assembly-CSharp-Debug.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: .vs/The Ideal City Builder/xs/sqlite3/storage.ide
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/.vs/The Ideal City Builder/xs/sqlite3/storage.ide
-    projectPath: .vs/The Ideal City Builder/xs/sqlite3/storage.ide
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: .vs/The Ideal City Builder/xs/sqlite3/storage.ide-shm
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/.vs/The Ideal City Builder/xs/sqlite3/storage.ide-shm
-    projectPath: .vs/The Ideal City Builder/xs/sqlite3/storage.ide-shm
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: .vs/The Ideal City Builder/xs/sqlite3/storage.ide-wal
     fullPath: /Users/benjaminmyers/The Ideal City Builder/.vs/The Ideal City Builder/xs/sqlite3/storage.ide-wal
     projectPath: .vs/The Ideal City Builder/xs/sqlite3/storage.ide-wal
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: .vs/The Ideal City Builder/xs/UserPrefs.xml
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/.vs/The Ideal City Builder/xs/UserPrefs.xml
-    projectPath: .vs/The Ideal City Builder/xs/UserPrefs.xml
+  - path: Assets/Imports/Demo/PostProcessingStack.asset
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Assets/Imports/Demo/PostProcessingStack.asset
+    projectPath: Assets/Imports/Demo/PostProcessingStack.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assembly-CSharp.csproj
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets/Materials/Blue Effect.mat
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Assets/Materials/Blue Effect.mat
-    projectPath: Assets/Materials/Blue Effect.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Materials/Blue Effect.mat.meta
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Assets/Materials/Blue Effect.mat.meta
-    projectPath: Assets/Materials/Blue Effect.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Assets/Materials/Under Currently Placing.mat
     fullPath: /Users/benjaminmyers/The Ideal City Builder/Assets/Materials/Under
       Currently Placing.mat
@@ -71,27 +35,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets/Materials/White.mat
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Assets/Materials/White.mat
-    projectPath: Assets/Materials/White.mat
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Materials/White.mat.meta
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Assets/Materials/White.mat.meta
-    projectPath: Assets/Materials/White.mat.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Assets/Scenes/Main.unity
     fullPath: /Users/benjaminmyers/The Ideal City Builder/Assets/Scenes/Main.unity
     projectPath: Assets/Scenes/Main.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets/Scripts/GridAnimation.cs
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Assets/Scripts/GridAnimation.cs
-    projectPath: Assets/Scripts/GridAnimation.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -101,132 +47,84 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets/Scripts/SettingManager.cs
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Assets/Scripts/SettingManager.cs
-    projectPath: Assets/Scripts/SettingManager.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets/Scripts/SettingManager.cs.meta
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Assets/Scripts/SettingManager.cs.meta
-    projectPath: Assets/Scripts/SettingManager.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library/ArtifactDB
     fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ArtifactDB
     projectPath: Library/ArtifactDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/Artifacts/1a/1a83ca1a2ac825da6f178edee1955f66
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/1a/1a83ca1a2ac825da6f178edee1955f66
-    projectPath: Library/Artifacts/1a/1a83ca1a2ac825da6f178edee1955f66
+  - path: Library/Artifacts/27/2751d9b6139bfe8efdff086d0d3cfc04
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/27/2751d9b6139bfe8efdff086d0d3cfc04
+    projectPath: Library/Artifacts/27/2751d9b6139bfe8efdff086d0d3cfc04
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/1f/1f96dd9ce8b4ea44d108ec6e7c79b923
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/1f/1f96dd9ce8b4ea44d108ec6e7c79b923
-    projectPath: Library/Artifacts/1f/1f96dd9ce8b4ea44d108ec6e7c79b923
+  - path: Library/Artifacts/47/47c5fcd4a556acad80776b4095bbeaa9
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/47/47c5fcd4a556acad80776b4095bbeaa9
+    projectPath: Library/Artifacts/47/47c5fcd4a556acad80776b4095bbeaa9
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/21/21c6c85ca6f0b767087656c41709c9ec
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/21/21c6c85ca6f0b767087656c41709c9ec
-    projectPath: Library/Artifacts/21/21c6c85ca6f0b767087656c41709c9ec
+  - path: Library/Artifacts/66/661148aa9dd9eafd4f7812f51a353452
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/66/661148aa9dd9eafd4f7812f51a353452
+    projectPath: Library/Artifacts/66/661148aa9dd9eafd4f7812f51a353452
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/24/24b61188b61867f584af91797c9a4cb3
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/24/24b61188b61867f584af91797c9a4cb3
-    projectPath: Library/Artifacts/24/24b61188b61867f584af91797c9a4cb3
+  - path: Library/Artifacts/68/68ee0ba45381e287c15cd1ffcba8ecce
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/68/68ee0ba45381e287c15cd1ffcba8ecce
+    projectPath: Library/Artifacts/68/68ee0ba45381e287c15cd1ffcba8ecce
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/26/26054c5243fd7e160e8dca14db2ef301
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/26/26054c5243fd7e160e8dca14db2ef301
-    projectPath: Library/Artifacts/26/26054c5243fd7e160e8dca14db2ef301
+  - path: Library/Artifacts/79/794f5a26dd76ba5b9b09fa259c15810b
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/79/794f5a26dd76ba5b9b09fa259c15810b
+    projectPath: Library/Artifacts/79/794f5a26dd76ba5b9b09fa259c15810b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/3b/3b6214c4f4537005617426617e4acfa8
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/3b/3b6214c4f4537005617426617e4acfa8
-    projectPath: Library/Artifacts/3b/3b6214c4f4537005617426617e4acfa8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/46/466d2d7dd4539cbed738f1e78d76c845
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/46/466d2d7dd4539cbed738f1e78d76c845
-    projectPath: Library/Artifacts/46/466d2d7dd4539cbed738f1e78d76c845
+  - path: Library/Artifacts/8c/8c02332a7fae55415eca993cd2ad17f8
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/8c/8c02332a7fae55415eca993cd2ad17f8
+    projectPath: Library/Artifacts/8c/8c02332a7fae55415eca993cd2ad17f8
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/5e/5e619061bd5464630f56f1ae70a8c0dc
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/5e/5e619061bd5464630f56f1ae70a8c0dc
-    projectPath: Library/Artifacts/5e/5e619061bd5464630f56f1ae70a8c0dc
+  - path: Library/Artifacts/a2/a297527e010d7995a25b842b2d8ca510
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/a2/a297527e010d7995a25b842b2d8ca510
+    projectPath: Library/Artifacts/a2/a297527e010d7995a25b842b2d8ca510
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/7e/7eb546ebeed9b3fc542aaee3dbb848f2
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/7e/7eb546ebeed9b3fc542aaee3dbb848f2
-    projectPath: Library/Artifacts/7e/7eb546ebeed9b3fc542aaee3dbb848f2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/86/8695c987a06ab5cf2ab5fd6ddf82c239
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/86/8695c987a06ab5cf2ab5fd6ddf82c239
-    projectPath: Library/Artifacts/86/8695c987a06ab5cf2ab5fd6ddf82c239
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/8b/8b730d6af1201c9a477ca2eb27ec8000
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/8b/8b730d6af1201c9a477ca2eb27ec8000
-    projectPath: Library/Artifacts/8b/8b730d6af1201c9a477ca2eb27ec8000
+  - path: Library/Artifacts/d3/d3266e24bef84a31cf81cfb73c6a2231
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/d3/d3266e24bef84a31cf81cfb73c6a2231
+    projectPath: Library/Artifacts/d3/d3266e24bef84a31cf81cfb73c6a2231
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/9a/9a85eca5d6230147918e1352d8b80529
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/9a/9a85eca5d6230147918e1352d8b80529
-    projectPath: Library/Artifacts/9a/9a85eca5d6230147918e1352d8b80529
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/c5/c579840c9cd91d61bcb739e6f61d820b
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/c5/c579840c9cd91d61bcb739e6f61d820b
-    projectPath: Library/Artifacts/c5/c579840c9cd91d61bcb739e6f61d820b
+  - path: Library/Artifacts/d5/d554f3a041ddd78befb6ee34f5ab5f95
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/d5/d554f3a041ddd78befb6ee34f5ab5f95
+    projectPath: Library/Artifacts/d5/d554f3a041ddd78befb6ee34f5ab5f95
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/d5/d56667a4170cf7de5062d04b08a0eb5a
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/d5/d56667a4170cf7de5062d04b08a0eb5a
-    projectPath: Library/Artifacts/d5/d56667a4170cf7de5062d04b08a0eb5a
+  - path: Library/Artifacts/db/dbd586dadc4a594804eafe70cd39eff3
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/db/dbd586dadc4a594804eafe70cd39eff3
+    projectPath: Library/Artifacts/db/dbd586dadc4a594804eafe70cd39eff3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/Artifacts/f8/f8abd74f8770687795fd6fab5be7a90b
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/f8/f8abd74f8770687795fd6fab5be7a90b
-    projectPath: Library/Artifacts/f8/f8abd74f8770687795fd6fab5be7a90b
+  - path: Library/Artifacts/f2/f2b75577c668030e929e5117af67eb30
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/f2/f2b75577c668030e929e5117af67eb30
+    projectPath: Library/Artifacts/f2/f2b75577c668030e929e5117af67eb30
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/Artifacts/fd/fdeb53daa0fa92d13652d575e83558ad
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/fd/fdeb53daa0fa92d13652d575e83558ad
-    projectPath: Library/Artifacts/fd/fdeb53daa0fa92d13652d575e83558ad
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/Artifacts/f9/f9b94b121cc3c8e43fb1361173dc30d9
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/Artifacts/f9/f9b94b121cc3c8e43fb1361173dc30d9
+    projectPath: Library/Artifacts/f9/f9b94b121cc3c8e43fb1361173dc30d9
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library/CurrentLayout-default.dwlt
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/CurrentLayout-default.dwlt
-    projectPath: Library/CurrentLayout-default.dwlt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/EditorInstance.json
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/EditorInstance.json
-    projectPath: Library/EditorInstance.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library/gfu/cache/branches.yaml
     fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/gfu/cache/branches.yaml
     projectPath: Library/gfu/cache/branches.yaml
@@ -257,24 +155,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/gfu/cache/repoinfo.yaml
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/gfu/cache/repoinfo.yaml
-    projectPath: Library/gfu/cache/repoinfo.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/InspectorExpandedItems.asset
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/InspectorExpandedItems.asset
-    projectPath: Library/InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/SceneVisibilityState.asset
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/SceneVisibilityState.asset
-    projectPath: Library/SceneVisibilityState.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library/ScriptAssemblies/Assembly-CSharp.dll
     fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Assembly-CSharp.dll
     projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
@@ -293,189 +173,63 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
-    projectPath: Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-    projectPath: Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
-    projectPath: Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
-    projectPath: Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
-    projectPath: Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-    projectPath: Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/ScriptAssemblies/Unity.Rider.Editor.dll
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Unity.Rider.Editor.dll
-    projectPath: Library/ScriptAssemblies/Unity.Rider.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
-    projectPath: Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/ScriptAssemblies/Unity.ShaderGraph.Utilities.dll
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Unity.ShaderGraph.Utilities.dll
-    projectPath: Library/ScriptAssemblies/Unity.ShaderGraph.Utilities.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/ScriptAssemblies/Unity.TextMeshPro.dll
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Unity.TextMeshPro.dll
-    projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-    projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/ScriptAssemblies/Unity.Timeline.dll
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Unity.Timeline.dll
-    projectPath: Library/ScriptAssemblies/Unity.Timeline.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-    projectPath: Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll
-    projectPath: Library/ScriptAssemblies/Unity.VisualEffectGraph.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll
-    projectPath: Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-    projectPath: Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-    projectPath: Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/ScriptAssemblies/UnityEditor.UI.dll
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/UnityEditor.UI.dll
-    projectPath: Library/ScriptAssemblies/UnityEditor.UI.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-    projectPath: Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/ScriptAssemblies/UnityEngine.UI.dll
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ScriptAssemblies/UnityEngine.UI.dll
-    projectPath: Library/ScriptAssemblies/UnityEngine.UI.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/ShaderCache/1/143af54754af9eec9e0330e4872de347.bin
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/1/143af54754af9eec9e0330e4872de347.bin
-    projectPath: Library/ShaderCache/1/143af54754af9eec9e0330e4872de347.bin
+  - path: Library/ShaderCache/2/22e95778646cccf68422b7228ee5dbe9.bin
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/2/22e95778646cccf68422b7228ee5dbe9.bin
+    projectPath: Library/ShaderCache/2/22e95778646cccf68422b7228ee5dbe9.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/ShaderCache/3/39885cc22aa6571880b813aa8d030751.bin
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/3/39885cc22aa6571880b813aa8d030751.bin
-    projectPath: Library/ShaderCache/3/39885cc22aa6571880b813aa8d030751.bin
+  - path: Library/ShaderCache/2/2540b163c5a4fc081c75ca5dc642ecf5.bin
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/2/2540b163c5a4fc081c75ca5dc642ecf5.bin
+    projectPath: Library/ShaderCache/2/2540b163c5a4fc081c75ca5dc642ecf5.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/ShaderCache/3/3f2b9d6ec0c373f93be044571b8ceadc.bin
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/3/3f2b9d6ec0c373f93be044571b8ceadc.bin
-    projectPath: Library/ShaderCache/3/3f2b9d6ec0c373f93be044571b8ceadc.bin
+  - path: Library/ShaderCache/7/74bcd820e426f304e22486cc201a2e05.bin
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/7/74bcd820e426f304e22486cc201a2e05.bin
+    projectPath: Library/ShaderCache/7/74bcd820e426f304e22486cc201a2e05.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/ShaderCache/5/5476140f81c9ebdb1804beafd3143803.bin
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/5/5476140f81c9ebdb1804beafd3143803.bin
-    projectPath: Library/ShaderCache/5/5476140f81c9ebdb1804beafd3143803.bin
+  - path: Library/ShaderCache/7/7e737456aaadbf5a7099edfb4ff83566.bin
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/7/7e737456aaadbf5a7099edfb4ff83566.bin
+    projectPath: Library/ShaderCache/7/7e737456aaadbf5a7099edfb4ff83566.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/ShaderCache/5/5933d56d95bc7298abaca71368d1cbba.bin
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/5/5933d56d95bc7298abaca71368d1cbba.bin
-    projectPath: Library/ShaderCache/5/5933d56d95bc7298abaca71368d1cbba.bin
+  - path: Library/ShaderCache/9/951b5b142c342b6ddffd0c96929669f2.bin
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/9/951b5b142c342b6ddffd0c96929669f2.bin
+    projectPath: Library/ShaderCache/9/951b5b142c342b6ddffd0c96929669f2.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/ShaderCache/6/60eb80e1e82d5af5e46e3de5a77e7036.bin
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/6/60eb80e1e82d5af5e46e3de5a77e7036.bin
-    projectPath: Library/ShaderCache/6/60eb80e1e82d5af5e46e3de5a77e7036.bin
+  - path: Library/ShaderCache/a/a1b74771d1ffffd7ce024acf6e444d9f.bin
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/a/a1b74771d1ffffd7ce024acf6e444d9f.bin
+    projectPath: Library/ShaderCache/a/a1b74771d1ffffd7ce024acf6e444d9f.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library/ShaderCache/a/a9b0c130a0c24a5b2771f05ebe0e16a6.bin
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/a/a9b0c130a0c24a5b2771f05ebe0e16a6.bin
-    projectPath: Library/ShaderCache/a/a9b0c130a0c24a5b2771f05ebe0e16a6.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/ShaderCache/b/b02a6e5b261cfc0c47302765b8e92268.bin
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/b/b02a6e5b261cfc0c47302765b8e92268.bin
-    projectPath: Library/ShaderCache/b/b02a6e5b261cfc0c47302765b8e92268.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/ShaderCache/c/c832de7d3d6965db40291e958abf0b48.bin
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/c/c832de7d3d6965db40291e958abf0b48.bin
-    projectPath: Library/ShaderCache/c/c832de7d3d6965db40291e958abf0b48.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library/ShaderCache/e/e142cc8eae3adf56a3311fa6ed399c0d.bin
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/e/e142cc8eae3adf56a3311fa6ed399c0d.bin
-    projectPath: Library/ShaderCache/e/e142cc8eae3adf56a3311fa6ed399c0d.bin
+  - path: Library/ShaderCache/e/edb2e053d07fc987fe1c8c32f934d2f6.bin
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/e/edb2e053d07fc987fe1c8c32f934d2f6.bin
+    projectPath: Library/ShaderCache/e/edb2e053d07fc987fe1c8c32f934d2f6.bin
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Library/ShaderCache/EditorEncounteredVariants
     fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/EditorEncounteredVariants
     projectPath: Library/ShaderCache/EditorEncounteredVariants
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/ShaderCache/f/ffaedcd37464b469662f1fe5d2f95e86.bin
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/ShaderCache/f/ffaedcd37464b469662f1fe5d2f95e86.bin
+    projectPath: Library/ShaderCache/f/ffaedcd37464b469662f1fe5d2f95e86.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/shadercompiler-UnityShaderCompiler0.log
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/shadercompiler-UnityShaderCompiler0.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -488,12 +242,6 @@ MonoBehaviour:
   - path: Library/shadercompiler-UnityShaderCompiler2.log
     fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/shadercompiler-UnityShaderCompiler2.log
     projectPath: Library/shadercompiler-UnityShaderCompiler2.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library/shadercompiler-UnityShaderCompiler3.log
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Library/shadercompiler-UnityShaderCompiler3.log
-    projectPath: Library/shadercompiler-UnityShaderCompiler3.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -515,57 +263,81 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    projectPath: obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    projectPath: obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Temp/__Backupscenes/0.backup
     fullPath: /Users/benjaminmyers/The Ideal City Builder/Temp/__Backupscenes/0.backup
     projectPath: Temp/__Backupscenes/0.backup
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Temp/UnityTempFile-574cdead8549549bc8f8f381dde6cbea
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Temp/UnityTempFile-574cdead8549549bc8f8f381dde6cbea
-    projectPath: Temp/UnityTempFile-574cdead8549549bc8f8f381dde6cbea
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-912bb80bb616c4a65b3b7291d7f42386
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Temp/UnityTempFile-912bb80bb616c4a65b3b7291d7f42386
-    projectPath: Temp/UnityTempFile-912bb80bb616c4a65b3b7291d7f42386
+  - path: Temp/UnityTempFile-05c65db71e39b44aeaef325f4d13a41e
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Temp/UnityTempFile-05c65db71e39b44aeaef325f4d13a41e
+    projectPath: Temp/UnityTempFile-05c65db71e39b44aeaef325f4d13a41e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-c7bcfc7e839c14df3997958912049b1d
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Temp/UnityTempFile-c7bcfc7e839c14df3997958912049b1d
-    projectPath: Temp/UnityTempFile-c7bcfc7e839c14df3997958912049b1d
+  - path: Temp/UnityTempFile-3052e4beb5135455c90587230c985bbb
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Temp/UnityTempFile-3052e4beb5135455c90587230c985bbb
+    projectPath: Temp/UnityTempFile-3052e4beb5135455c90587230c985bbb
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-d2c0c3c195be34e3d8d3ce3338447551
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Temp/UnityTempFile-d2c0c3c195be34e3d8d3ce3338447551
-    projectPath: Temp/UnityTempFile-d2c0c3c195be34e3d8d3ce3338447551
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Temp/UnityTempFile-df3676c3bc22045afabde7c5d0e72600
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Temp/UnityTempFile-df3676c3bc22045afabde7c5d0e72600
-    projectPath: Temp/UnityTempFile-df3676c3bc22045afabde7c5d0e72600
+  - path: Temp/UnityTempFile-63078d6b82da1420c8f350ad498e8585
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Temp/UnityTempFile-63078d6b82da1420c8f350ad498e8585
+    projectPath: Temp/UnityTempFile-63078d6b82da1420c8f350ad498e8585
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp/UnityTempFile-e617f51aa3d9c4c8d90719c8e2e44985
-    fullPath: /Users/benjaminmyers/The Ideal City Builder/Temp/UnityTempFile-e617f51aa3d9c4c8d90719c8e2e44985
-    projectPath: Temp/UnityTempFile-e617f51aa3d9c4c8d90719c8e2e44985
+  - path: Temp/UnityTempFile-6d92724bd477d4a87ab5163a9ffe21ed
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Temp/UnityTempFile-6d92724bd477d4a87ab5163a9ffe21ed
+    projectPath: Temp/UnityTempFile-6d92724bd477d4a87ab5163a9ffe21ed
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-815431b5e86d143aeb6568217d6c03d6
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Temp/UnityTempFile-815431b5e86d143aeb6568217d6c03d6
+    projectPath: Temp/UnityTempFile-815431b5e86d143aeb6568217d6c03d6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-89bad6f2fc7e441e0913fb9d5734676e
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Temp/UnityTempFile-89bad6f2fc7e441e0913fb9d5734676e
+    projectPath: Temp/UnityTempFile-89bad6f2fc7e441e0913fb9d5734676e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-8a1b421049ce341b4ae184ef68cf9db4
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Temp/UnityTempFile-8a1b421049ce341b4ae184ef68cf9db4
+    projectPath: Temp/UnityTempFile-8a1b421049ce341b4ae184ef68cf9db4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-bfc9ed68285ea4ca1a1a1450b9907ecd
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Temp/UnityTempFile-bfc9ed68285ea4ca1a1a1450b9907ecd
+    projectPath: Temp/UnityTempFile-bfc9ed68285ea4ca1a1a1450b9907ecd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-cf593fa350d814a28aa4fd96d4acb78b
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Temp/UnityTempFile-cf593fa350d814a28aa4fd96d4acb78b
+    projectPath: Temp/UnityTempFile-cf593fa350d814a28aa4fd96d4acb78b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-d531900542eb84be486976c3f14dbfcc
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Temp/UnityTempFile-d531900542eb84be486976c3f14dbfcc
+    projectPath: Temp/UnityTempFile-d531900542eb84be486976c3f14dbfcc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-d7d511488b27c4faaad0828062ada13e
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Temp/UnityTempFile-d7d511488b27c4faaad0828062ada13e
+    projectPath: Temp/UnityTempFile-d7d511488b27c4faaad0828062ada13e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp/UnityTempFile-fcc522f88f29341eb901480c5e7c32f2
+    fullPath: /Users/benjaminmyers/The Ideal City Builder/Temp/UnityTempFile-fcc522f88f29341eb901480c5e7c32f2
+    projectPath: Temp/UnityTempFile-fcc522f88f29341eb901480c5e7c32f2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

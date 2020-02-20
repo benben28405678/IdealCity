@@ -5455,10 +5455,8 @@ MonoBehaviour:
   mapParentNode: {fileID: 495434630}
   plane: {fileID: 279640970}
   hologramMaterial: {fileID: 2100000, guid: d0af7ad49d9e0d54cb487c1c81501239, type: 2}
-  destroyMaterial: {fileID: 0}
-  mapElements: {fileID: 495434630}
   particles: {fileID: 1252443562}
-  destroyParticles: {fileID: 0}
+  destroyParticles: {fileID: 1467801093}
 --- !u!4 &1291013631
 Transform:
   m_ObjectHideFlags: 0
@@ -10325,8 +10323,8 @@ MonoBehaviour:
   grabSpeed: 1
   rotateSpeed: 1
   zoomSpeed: 1
-  centerObject: {fileID: 0}
-  panCursor: {fileID: 0}
+  centerObject: {fileID: 1011823763}
+  panCursor: {fileID: 2800000, guid: be5bdc44bad2e46bca14d1498f1ccd59, type: 3}
 --- !u!114 &1503446970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10339,7 +10337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 0}
+  profile: {fileID: 11400000, guid: 258513f1ebb8ebd42993a6137e2f7d4c, type: 2}
 --- !u!81 &1503446974
 AudioListener:
   m_ObjectHideFlags: 0
@@ -10381,7 +10379,7 @@ Camera:
     height: 1
   near clip plane: 5
   far clip plane: 4000
-  field of view: 7
+  field of view: 2
   orthographic: 0
   orthographic size: 20
   m_Depth: -1
