@@ -11,6 +11,7 @@ public class SettingManager : MonoBehaviour
 
     public GameObject grid;
     public GridAnimation gridAnimation;
+    public MonoBehaviour postProcessing;
 
     public GraphicsLevel graphicsLevel = GraphicsLevel.HIGH;
 
@@ -30,12 +31,17 @@ public class SettingManager : MonoBehaviour
     {
         Material toSet = gridAnimation.lowDefMaterial;
 
-        if (graphicsLevel > 0)
+        if ((int)graphicsLevel > 0)
         {
             toSet = gridAnimation.material;
         }
 
-        for(int i = 0; i < grid.transform.childCount; i++)
+        if ((int)graphicsLevel > 1)
+        {
+            postProcessing.enabled = true;
+        }
+
+        for (int i = 0; i < grid.transform.childCount; i++)
         {
             grid.transform.GetChild(i).GetComponent<MeshRenderer>().material = toSet;
         }

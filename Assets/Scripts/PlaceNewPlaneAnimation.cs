@@ -4,28 +4,25 @@ using UnityEngine;
 
 public class PlaceNewPlaneAnimation : MonoBehaviour
 {
-    public Material thisMaterial;
-    public StateManager stateManager;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    /*
+     * This script is in charge of the plane that animates under the current building in Build Mode.
+     */
 
-    // Update is called once per frame
+    public Material thisMaterial; // The reference to the plane's material
+    public StateManager stateManager; // The State Manager
+
     void LateUpdate()
     {
         
-        if(!stateManager.isBuilding)
-        {
-            return;
-        }
+        // Don't bother running this script if we're not in Build Mode.
+        if(!stateManager.isBuilding) return;
 
-        float s = 0.95f + 0.05f * Mathf.Abs(Mathf.Sin(3.0f * Time.fixedTime));
+        float s = 0.95f + 0.05f * Mathf.Abs(Mathf.Sin(3.0f * Time.fixedTime)); // Scale the object over time
 
+        // Animate the color blue and green
         thisMaterial.color = new Color(0.0f, 1.0f, 0.5f + 0.5f * Mathf.Cos(Time.fixedTime));
 
+        // If we're placing on top of a building, animate the color red and yellow
         if (transform.localPosition.y < -4.0f)
         {
             thisMaterial.color = new Color(1.0f, 0.5f + 0.5f * Mathf.Cos(Time.fixedTime), 0.0f);

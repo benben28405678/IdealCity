@@ -152,6 +152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isBuilding: 1
+  currentlyPlacingName: Solar_Energy_Plant
 --- !u!4 &167661574
 Transform:
   m_ObjectHideFlags: 0
@@ -180,6 +181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grid: {fileID: 364438352}
   gridAnimation: {fileID: 364438354}
+  postProcessing: {fileID: 1503446969}
   graphicsLevel: 2
 --- !u!1 &279640970
 GameObject:
