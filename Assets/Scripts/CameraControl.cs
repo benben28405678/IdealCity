@@ -17,44 +17,44 @@ public class CameraControl : MonoBehaviour
 
     private Vector3 lastMousePosition; // The last position of the mouse, in 3D coords (even though it is really 2D)
     private Vector3 deltaMouse; // The change in position of the mouse. Used for animation of the new building being placed.
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
 
         // W key moves camera up
-        if(Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W)) {
+        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
+        {
             centerObject.transform.position += centerObject.transform.forward * panSpeed * Time.deltaTime; //transform.localPosition
         }
 
         // S key moves camera down
-        if(Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S)) {
+        if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
+        {
             centerObject.transform.position += -centerObject.transform.forward * panSpeed * Time.deltaTime;
         }
 
         // A key moves camera left
-        if(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A)) {
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+        {
             centerObject.transform.position += -centerObject.transform.right * panSpeed * Time.deltaTime;
         }
 
         // D key moves camera right
-        if(Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D)) {
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+        {
             centerObject.transform.position += centerObject.transform.right * panSpeed * Time.deltaTime;
         }
 
         // Q key rotates along Y axis
-        if(Input.GetKey(KeyCode.Q)) {
+        if (Input.GetKey(KeyCode.Q))
+        {
             centerObject.transform.Rotate(0.0f, rotateSpeed, 0.0f, Space.World);
         }
 
         // E key rotates along Y axis the other way
-        if(Input.GetKey(KeyCode.E)) {
+        if (Input.GetKey(KeyCode.E))
+        {
             centerObject.transform.Rotate(0.0f, -rotateSpeed, 0.0f, Space.World);
         }
 
@@ -76,10 +76,11 @@ public class CameraControl : MonoBehaviour
         camera.fieldOfView += Input.mouseScrollDelta.y * zoomSpeed / -100.0f; // Zooming in/out will change the field of view.
 
         // Make sure we don't zoom too far in/out.
-        if(camera.fieldOfView < 1.0f)
+        if (camera.fieldOfView < 1.0f)
         {
             camera.fieldOfView = 1.0f;
-        } else if(camera.fieldOfView > 7.0f)
+        }
+        else if (camera.fieldOfView > 7.0f)
         {
             camera.fieldOfView = 7.0f;
         }
@@ -88,7 +89,7 @@ public class CameraControl : MonoBehaviour
         deltaMouse = Input.mousePosition - lastMousePosition;
 
         // Pan the screen when SPACEBAR pressed
-        if(Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space))
         {
             Cursor.SetCursor(panCursor, Vector2.zero, CursorMode.Auto);
             transform.localPosition -= grabSpeed * deltaMouse * Time.deltaTime;

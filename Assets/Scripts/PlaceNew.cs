@@ -109,7 +109,7 @@ public class PlaceNew : MonoBehaviour
                 if (Input.GetMouseButtonDown(0))
                 {
                     newClone = Instantiate(building); // Make a clone of the building
-                    newClone.transform.position = new Vector3(destination.x, 0.0f, destination.z); // Set the clone's position to the position of the current building, but on the ground.
+                    newClone.transform.position = new Vector3(destination.x, building.transform.position.y, destination.z); // Set the clone's position to the position of the current building, but on the ground.
                     newClone.transform.rotation = new Quaternion(); // Reset the rotation of the clone
                     newClone.transform.SetParent(mapParentNode.transform); // Make the clone a child of MapElements
 
@@ -142,6 +142,9 @@ public class PlaceNew : MonoBehaviour
                     // Hide the current building and plane when the mouse is down
                     building.GetComponent<MeshRenderer>().enabled = false;
                     plane.GetComponent<MeshRenderer>().enabled = false;
+
+                    // Animate the placing down of the building when mouse pressed
+                    newClone.transform.position -= new Vector3(0, newClone.transform.position.y / 4.0f, 0);
 
                     // Only rotate the building if the mouse is 5 units away from the clone. This is to prevent glitchy angles.
                     if ((hit.point - newCloneCenter).magnitude > 5.0f)

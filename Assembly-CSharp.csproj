@@ -118,6 +118,7 @@
     <Compile Include="Assets\Imports\PostProcessing2\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
     <Compile Include="Assets\Scripts\CameraControl.cs" />
     <Compile Include="Assets\Scripts\GridAnimation.cs" />
+    <Compile Include="Assets\Scripts\Library.cs" />
     <Compile Include="Assets\Scripts\PlaceNew.cs" />
     <Compile Include="Assets\Scripts\PlaceNewPlaneAnimation.cs" />
     <Compile Include="Assets\Scripts\SettingManager.cs" />
