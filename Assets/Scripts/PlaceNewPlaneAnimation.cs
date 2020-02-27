@@ -28,7 +28,9 @@ public class PlaceNewPlaneAnimation : MonoBehaviour
             thisMaterial.color = new Color(1.0f, 0.5f + 0.5f * Mathf.Cos(Time.fixedTime), 0.0f);
         }
 
-        transform.localScale = new Vector3(s, s, s);
-        
+        Library.BuildingSize size = Library.sizeForBuilding(stateManager.currentlyPlacingName);
+        if (size == Library.BuildingSize._1x1) transform.localScale = new Vector3(s, s, s);
+        else if (size == Library.BuildingSize._1x2) transform.localScale = new Vector3(s, s, 2.0f * s);
+
     }
 }

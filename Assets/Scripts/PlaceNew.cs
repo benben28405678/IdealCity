@@ -74,6 +74,7 @@ public class PlaceNew : MonoBehaviour
                 destination.z /= 10.0f;
                 destination.z = Mathf.Round(destination.z);
                 destination.z *= 10.0f;
+                if (Library.sizeForBuilding(manager.currentlyPlacingName) == Library.BuildingSize._1x2) destination.z += 5.0f;
 
                 destination.y = 0.0f;
 
